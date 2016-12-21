@@ -1,5 +1,9 @@
 [![Build Status](https://travis-ci.org/jxs/phoenix_linguist.svg?branch=master)](https://travis-ci.org/jxs/phoenix_linguist)
 
+Please see the original project for updates. This form solely fixes a mix
+dependency which breaks PhoenixLinguist to work after making a release with
+e.g. distillery.
+
 #PhoenixLinguist
 
 A project that integrates [Phoenix](http://github.com/phoenixframework/phoenix) with [Linguist](https://github.com/chrismccord/linguist), providing a plug and view helpers

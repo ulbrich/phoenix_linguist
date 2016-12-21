@@ -78,7 +78,7 @@ defmodule PhoenixLinguist do
 
   """
   def i18n(conn) do
-    Mix.Project.config()[:app]
+    conn.private.phoenix_endpoint.config(:otp_app)
     |> Application.get_env(endpoint_module(conn))
     |> Dict.get(:i18n)
   end
