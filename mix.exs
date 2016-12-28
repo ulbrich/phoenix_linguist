@@ -39,7 +39,7 @@ defmodule PhoenixLinguist.Mixfile do
     # [{:phoenix, ">= 0.8.0"},
     [{:phoenix, ">= 0.10.0"},
      {:cowboy, "~> 1.0"},
-     {:linguist, ">= 0.1.5"},
+     {:linguist, github: "ulbrich/linguist"},
      {:earmark, "~> 0.1", only: :docs},
      {:ex_doc, "~> 0.7.1", only: :docs}
     ]
