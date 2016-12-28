@@ -47,12 +47,4 @@ defmodule PhoenixLinguist.Helpers do
         locale
     end
   end
-
-
-  defp get_view(conn) do
-    conn.private.phoenix_endpoint.config(:otp_app)
-    |> to_string
-    |> Mix.Utils.camelize
-    |> Module.concat View
-  end
 end
