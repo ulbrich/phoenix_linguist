@@ -4,7 +4,7 @@ defmodule PhoenixLinguist do
 
   """
 
-  import Plug.Conn, only: [get_req_header: 2, get_session: 2, put_session: 3]
+  import Plug.Conn, only: [get_req_header: 2, get_session: 2]
   import Phoenix.Controller, only: [endpoint_module: 1]
 
   @doc """

@@ -13,7 +13,7 @@ defmodule PhoenixLinguist.Plug do
     options
   end
 
-  def call(conn, opts) do
+  def call(conn, _opts) do
     case prefered_locale(conn) do
       :wrong ->
         error_view = endpoint_module(conn).config(:render_errors)
